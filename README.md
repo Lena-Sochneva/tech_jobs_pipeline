@@ -79,15 +79,34 @@ Most common skills extracted from job tags.
 
 ## Example Queries SQL
 
+```sql
 SELECT location, count()
 FROM jobs
 GROUP BY location
 ORDER BY count() DESC;
-
+```
+```sql
 SELECT arrayJoin(tags) AS skill, count()
 FROM jobs
 GROUP BY skill
 ORDER BY count() DESC;
+```
+---
+
+## HExample Output
+
+Jobs by location (top 5):
+
+Germany — 45  
+USA — 30  
+Netherlands — 20  
+
+Skills frequency (top 5):
+
+Python — 60  
+SQL — 55  
+AWS — 40  
+Docker — 25  
 
 ---
 
