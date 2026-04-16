@@ -40,20 +40,13 @@ tech_jobs_pipeline/
 
 ## Data Pipeline
 
-API
-↓
-Extract (Python)
-↓
-Raw JSON
-↓
-Transform (pandas)
-↓
-Parquet
-↓
-Load (ClickHouse)
-↓
-Data marts (SQL)
-↓
+API → 
+Extract (Python) →
+Raw JSON →
+Transform (pandas) → 
+Parquet → 
+Load (ClickHouse) →
+Data marts (SQL) → 
 CSV export
 
 ---
