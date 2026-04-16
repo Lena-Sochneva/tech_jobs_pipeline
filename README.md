@@ -24,20 +24,17 @@ Pipeline stages:
 ## Project Structure
 
 tech_jobs_pipeline/
-
-src/
-extract/
-transform/
-load/
-analytics/
-
-data/
-raw/
-processed/
-marts/
-
-sql/
-marts.sql
+├── src/
+│    ├── extract/
+│    ├── transform/
+│    ├── load/
+│    └──analytics/
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── marts/ 
+└──  sql/
+    └── marts.sql
 
 ---
 
@@ -93,7 +90,7 @@ ORDER BY count() DESC;
 ```
 ---
 
-## HExample Output
+## Example Output
 
 Jobs by location (top 5):
 
