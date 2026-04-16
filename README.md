@@ -23,6 +23,7 @@ Pipeline stages:
 
 ## Project Structure
 
+```
 📁 tech_jobs_pipeline/  
 ├── 📁 src/  
 │    ├── 📁 extract/  
@@ -35,6 +36,7 @@ Pipeline stages:
 │   └── 📁 marts/  
 └── 📁 sql/  
     └── 📄 marts.sql
+```
 
 ---
 
