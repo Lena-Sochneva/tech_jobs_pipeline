@@ -23,18 +23,18 @@ Pipeline stages:
 
 ## Project Structure
 
-tech_jobs_pipeline/  
-├── src/  
-│    ├── extract/  
-│    ├── transform/ 
-│    ├── load/  
-│    └── analytics/   
-├── data/  
-│   ├── raw/  
-│   ├── processed/  
-│   └── marts/  
-└── sql/  
-    └── marts.sql
+📁 tech_jobs_pipeline/  
+├── 📁 src/  
+│    ├── 📁 extract/  
+│    ├── 📁 transform/ 
+│    ├── 📁 load/  
+│    └── 📁 analytics/   
+├── 📁 data/  
+│   ├── 📁 raw/  
+│   ├── 📁 processed/  
+│   └── 📁 marts/  
+└── 📁 sql/  
+    └── 📄 marts.sql
 
 ---
 
