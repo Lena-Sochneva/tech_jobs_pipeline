@@ -28,12 +28,12 @@ tech_jobs_pipeline/
 │    ├── extract/  
 │    ├── transform/ 
 │    ├── load/  
-│    └──analytics/   
+│    └── analytics/   
 ├── data/  
 │   ├── raw/  
 │   ├── processed/  
 │   └── marts/  
-└──  sql/  
+└── sql/  
     └── marts.sql
 
 ---
